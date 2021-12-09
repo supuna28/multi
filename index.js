@@ -42,7 +42,7 @@ async function exed() {
     puki.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update
         if (connection === 'close') {
-            lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut ? startpuki() : console.log('Koneksi Terputus...')
+            lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut ? exed() : console.log('Koneksi Terputus...')
         }
         console.log('Koneksi Terhubung...', update)
     })
