@@ -80,7 +80,7 @@ module.exports = puki = async (puki, m, chatUpdate) => {
 
         switch(command) {
 	    case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/puki-Morou\n\n Dont Forget Give Star\n\nDonate : https://ko-fi.com/cak_haho\n\n Dont Forget Donate')
+                m.reply('Script : SOON')
             }
             break
             case 'chat': {
@@ -496,12 +496,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;Dika Ardnt.;;;'
-                    + 'FN:Dika Ardnt.\n' // full name
+                    + 'N:;D.;;;'
+                    + 'FN:D.\n' // full name
                     + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6288292024190:+62 882-9202-4190\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=62:+62\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                puki.sendMessage(m.chat, { contacts: { displayName: 'Dika Ardnt.', contacts: [{ vcard }] } }, { quoted: m })
+                puki.sendMessage(m.chat, { contacts: { displayName: 'D.', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
 ***/
@@ -530,7 +530,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMessage = {
                     image: {url: 'https://telegra.ph/file/bb15c9a53c4a0b68a99fa.jpg' },
                     caption: `Hello @${m.sender.split("@")[0]}`,
-                    footerText: 'Bilek 🤔',
+                    footerText: 'Botkingdom🤔',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -625,13 +625,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
-                                    url: 'http://alwil-x.rf.gd'
+                                    displayText: 'Group',
+                                    url: 'https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857 9343 2434'
+                                    phoneNumber: '+94'
                                 }
                             }, {
                                 quickReplyButton: {
