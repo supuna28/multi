@@ -37,7 +37,7 @@ async function exed() {
 
     
     // Setting
-    puki.public = false
+    puki.public = true
 
     puki.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update
