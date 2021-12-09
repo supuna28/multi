@@ -8,15 +8,15 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'Your Key',
+	'https://zenzapi.xyz': '2mPoAudbPJDpG0t8',
 }
 
 // Other
-global.owner = ['6285793432434', '6285158410062']
-global.packname = 'Ecchi Senpai'
-global.author = '@shitpost.id_._'
-global.sessionName = 'sessions'
-global.prefa = ['/']
+global.owner = ['94753943957', '94705668194']
+global.packname = 'Botkingdom'
+global.author = '@TM_._'
+global.sessionName = 'session'
+global.prefa = ['.']
 global.sp = '⭔'
 global.mess = {
     admin: 'Fitur Khusus Admin Group!',
