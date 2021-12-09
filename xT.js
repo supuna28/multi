@@ -461,7 +461,7 @@ module.exports = puki = async (puki, m, chatUpdate) => {
             case 'song':{
                 if (!text) throw 'song name bro 🙃!'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('https://api.zeks.me/api/ytplaymp3?apikey=apivinz&q=', { url: text },))
+                let anu = await fetchJson(api('https://api.zeks.me/api/ytplaymp3?apikey=apivinz&q=',{text},))
                 puki.sendMessage(m.chat, { audio: { url: anu.data[0] }, caption: `Download From ${text}` }, { quoted: m})
             }
             break
