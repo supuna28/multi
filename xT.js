@@ -458,7 +458,7 @@ module.exports = puki = async (puki, m, chatUpdate) => {
                 puki.sendMessage(m.chat, { video: { url: anu.result }, caption: `Download From ${text}` }, { quoted: m })
             }
             break
-            case 'twittermp3': {
+            case 'play': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
                 let anu = await fetchJson(api('rey', '/api/download/playmp3', { url: text }, 'apikey'))
