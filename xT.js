@@ -466,8 +466,7 @@ module.exports = puki = async (puki, m, chatUpdate) => {
                     {buttonId: `twitter ${text}`, buttonText: {displayText: '► Video'}, type: 1}
                 ]
                 let buttonMessage = {
-		    image: { url: anu.result.thumb },
-                    caption: util.format(anu.result),
+                    caption: util.format(anu.views),
                     footerText: 'Press The Button Below',
                     buttons: buttons,
                     headerType: 4
